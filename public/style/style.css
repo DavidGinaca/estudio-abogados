@@ -1,0 +1,55 @@
+
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+/*top*/
+.fondo1{
+    background-image:url("../img/martillo.png");
+    background-position: center;
+    background-size:  cover;
+    height: 80vh;
+}
+
+.titulo{
+    margin-top: 8%;
+}
+
+h1{
+    color: rgb(233, 75, 75);
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+/*NavBar*/
+.logo{
+    margin-top: 2%;
+    width: 25%;    
+}
+
+.nav-link{
+    color: rgb(233, 75, 75);
+    font-weight: 700;
+}
+
+.fa-regular:hover{
+    color: blue;
+}
+
+/*cambio modo dia/noche*/
+
+#a1{
+    display: none;
+    margin-top: 4%;
+}
+.darkM{
+    background-color: rgb(5, 4, 4);
+    color: white;
+    transition: 0.5s ease;
+}
+
+#moon{
+    cursor: pointer;
+}
