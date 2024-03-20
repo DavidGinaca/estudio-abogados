@@ -1,44 +1,13 @@
-
-body{
-    background-color: rgb(231, 231, 231);
+#portada h1 {
+    font-style: italic; /* Pone el texto en modo itálico */
+    text-decoration: underline; /* Subraya el texto */
+    font-family: 'Campana Script', cursive; /* Cambia la fuente del texto */
 }
 
-/*top*/
-.fondo1{
-    background-image:url("../img/martillo.png");
-    background-position: center;
-    background-size:  cover;
-    height: 80vh;
+h1, h2, h5 {
+    color: #8D6E63;
+    font-family: 'Campana Script', cursive;
 }
-
-.titulo{
-    margin-top: 8%;
-}
-
-h1{
-    color: rgb(233, 75, 75);
-    font-weight: 700;
-    font-style: italic;
-}
-
-
-
-/*NavBar*/
-.logo{
-    margin-top: 2%;
-    width: 25%;    
-}
-
-.nav-link{
-    color: rgb(233, 75, 75);
-    font-weight: 700;
-}
-
-.fa-regular:hover{
-    color: blue;
-}
-
-/*cambio modo dia/noche*/
 
 #a1{
     display: none;
@@ -53,3 +22,9 @@ h1{
 #moon{
     cursor: pointer;
 }
+
+body{
+    background-color: #dcdcdd;
+    color:#4c5c68;   
+}
+
