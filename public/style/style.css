@@ -25,6 +25,12 @@ h1, h2, h5 {
 
 body{
     background-color: #dcdcdd;
-    color:#4c5c68;   
+    color:#4c5c68;
+    font-family: 'Garamond', serif;
+    font-weight: 700;   
 }
 
+p, ul, li {
+    font-family: 'Garamond', serif;
+    font-weight: 900; /* Para asegurarse de que se use la versión bold */
+  }
